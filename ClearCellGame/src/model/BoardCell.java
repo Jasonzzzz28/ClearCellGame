@@ -3,12 +3,6 @@ package model;
 import java.awt.*;
 import java.util.Random;
 
-/**
- * This enumerated type represents a board cell. A board cell has a color (based
- * on Color) and a name (e.g., "R").
- * 
- * @author Dept of Computer Science, UMCP
- */
 
 public enum BoardCell {
 	RED(Color.RED, "R"), GREEN(Color.GREEN, "G"), BLUE(Color.BLUE, "B"), YELLOW(
